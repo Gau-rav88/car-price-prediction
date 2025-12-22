@@ -117,7 +117,7 @@ if st.button("Predict Price"):
         "car_age": car_age
     }])
 
-    # Add all missing feature columns
+    # Add all missing feature column column
     for col in features:
         if col not in input_df.columns:
             input_df[col] = 0
